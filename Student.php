@@ -38,7 +38,7 @@ class Student {
         return $total / count($this->grades);
     }
     #format to display first name, last name and average grade in parenthesis ()
-    #new line for individual emails
+    #new line for individual email was erased. Now its a space
     function toString() {
         $result = $this->first_name . ' ' . $this->surname;
         $result .= ' ('.$this->average().") ";
